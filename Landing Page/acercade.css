@@ -1,0 +1,45 @@
+.about-section {
+    display: flex;
+    align-items: center;
+    justify-content: right; 
+    margin-right: 200px;
+    height: 395px; 
+    background-color: #fff; 
+}
+
+.vertical-title {
+    writing-mode: vertical-lr; 
+    text-orientation: mixed; 
+    margin-right: 10px; 
+    font-size: 40px; 
+    color: #000; 
+    transform: rotate(180deg); 
+    font-family: 'Safira March Personal Use', sans-serif;
+    font-weight: 400;
+}
+
+.about-text {
+    font-size: 14px;
+    line-height: 1.5; 
+    max-width: 400px;
+}
+
+footer {
+    background-color: #fff;
+    color: #000000;
+    padding: 20px;
+    margin-top: 10px; 
+    margin-left: 40px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-left img {
+    border-radius: 100%; 
+    width: 100%;
+    margin-left: 30%;
+}

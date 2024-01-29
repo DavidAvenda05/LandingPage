@@ -1,0 +1,53 @@
+.mantenimiento-RDI {
+    background-color: #fff;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+}
+
+
+.mantenimiento-RDI-text h1 {
+    margin-left: 50px;
+    font-size: 25px;
+    text-align: left;
+    font-family: 'Safira March Personal Use', sans-serif;
+    font-weight: 200;
+}
+
+.mantenimiento-RDI-text h3{
+    text-align: left;
+    font-size: 18px;
+    line-height: 1.0;
+    margin-top: 0.5%;
+    margin-left: 50px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+}
+
+.mantenimiento-RDI-text {
+    flex: 1;
+}
+
+.mantenimiento-RDI-text p {
+    font-size: 14px;
+    text-align: left;
+    margin-left: 50px;
+    line-height: 2.0;
+    margin-bottom: 50px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+    margin-top: 3%;
+}
+
+
+.mantenimiento-RDI-img {
+    flex: 1;
+    text-align: left;
+    margin-bottom: 100px;
+    margin-right: 20%;
+}
+
+.mantenimiento-RDI-img img {
+    width: 160%;
+    max-width: auto;
+}

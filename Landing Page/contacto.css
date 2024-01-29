@@ -1,0 +1,36 @@
+
+.Contact h1{
+    margin-left: 100px;
+    font-size: 30px;
+    line-height: 1.0;
+    font-family: 'Safira March Personal Use', sans-serif;
+    font-weight: 200;
+}
+
+.Contact img{
+    display: flex;
+    width: 50px;
+    align-items: center;
+    margin-top: 5%;
+    margin-left: 48%;
+    margin-bottom: 4%;
+    line-height: 2.0;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    margin-top: 1%;
+    margin-bottom: 4%;
+    margin-right: 18%;
+}
+
+.logo img{
+    width: 270px;
+}
+.Contact p{
+    text-align: center;
+    margin-top: 0%;
+    margin-bottom: 5%;
+}
+

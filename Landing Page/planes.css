@@ -1,0 +1,53 @@
+.planes-section {
+    background-color: #f0f0f0;
+    padding: 40px;
+}
+
+.planes-content {
+    display: flex;
+    align-items: center;
+}
+
+.planes-text {
+    flex: 1;
+}
+
+.planes-text h1 {
+    margin-left: 100px;
+    font-size: 30px;
+    line-height: 1.5;
+    font-family: 'Safira March Personal Use', sans-serif;
+    font-weight: 200;
+    
+}
+
+.planes-text h5{
+    margin-left: 15%;
+    font-size: 15px;
+    line-height: 1.0;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bolder;
+    margin-top: 2%;
+}
+
+.planes-text p {
+    font-size: 13px;
+    text-align: left;
+    margin-right: 35px; 
+    margin-left: 100px;
+    line-height: 1.5;
+    margin-bottom: 50px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    margin-top: 3%;
+}
+
+.planes-image {
+    flex: 1;
+    text-align: left;
+    margin-bottom: 100px;
+}
+
+.planes-image img {
+    width: 100%;
+}

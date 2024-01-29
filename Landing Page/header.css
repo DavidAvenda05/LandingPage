@@ -1,0 +1,22 @@
+/*header*/
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    font: bold;
+    padding: 40px; 
+}
+
+.header-top span {
+    padding: 20px; 
+}
+
+.header-top span.left {
+    float: left;
+    font-size: 10px;
+}
+
+.header-top span.right {
+    float: right;
+    font-size: 10px;
+}

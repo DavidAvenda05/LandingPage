@@ -1,0 +1,46 @@
+.como-trabajamos-section {
+    background-color: #f0f0f0;
+    padding: 40px;
+}
+
+.como-trabajamos-content {
+    display: flex;
+    align-items: center;
+}
+
+.como-trabajamos-text {
+    flex: 1;
+    
+}
+
+.como-trabajamos-text h1 {
+    margin-left: 100px;
+    font-size: 45px;
+    line-height: 1.7;
+    font-family: 'Safira March Personal Use', sans-serif;
+    font-weight: 300;
+}
+
+.como-trabajamos-text p {
+    font-size: 14px;
+    text-align: left;
+    margin-right: 35px; 
+    margin-left: 100px;
+    line-height: 1.9;
+    margin-bottom: 50px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+    margin-top: 5%;
+}
+
+.como-trabajamos-image {
+    flex: 1;
+    text-align: left;
+    margin-bottom: 0px;
+    max-width: 100%;
+}
+
+.como-trabajamos-image img {
+    max-width: 100%;
+    height: auto;
+}
