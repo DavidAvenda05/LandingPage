@@ -27,6 +27,33 @@ nav img{
     left: 2%;
 }
 
+.nav-aspectos ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;   
+}
+
+.nav-aspectos ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+
+}
+
+.nav-aspectos ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #000000;
+    display: block;
+    margin: auto;
+}
+
+.nav-aspectos ul li:hover::after{
+    width: 100%;
+}
+
 .text-box{
     width: 90%;
     color: #fff;
@@ -83,4 +110,8 @@ nav img{
         z-index: 2;
     }
 }
+
+
+/*SERVICIOS*/
+
 
