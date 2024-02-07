@@ -33,6 +33,8 @@
     font-weight: 300;
     color: #000000;
     font-family: 'Josefin Sans', sans-serif;
+    margin-top: 20px;
+    font-weight: bold;
 }
 
 .container{
@@ -40,13 +42,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 30px;
 }
 
 .container .contacto-info{
     width: 50%;
     display: flex;
-    flex-direction: column;
+    flex-direction:column;
 }
 
 .container .contacto-info .box{
@@ -55,15 +56,6 @@
     display: flex;
 }
 
-.container .contacto-info .box .icon{
-    min-width: 60px;
-    height: 60px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-    font-size: 22px;
-}
 
 .container .contacto-info .box .text{
     display: flex;
