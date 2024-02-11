@@ -22,12 +22,13 @@
 .galeria-cont img {
     display: inline-block;
     margin: 0 2%; 
-    width: 30%;
+    width: 5%;
     margin-bottom: 20px; 
+    size: 5%;
 }
 
 
-@media (min-width: 768px) {
+@media (min-width: 375px) {
     .galeria-cont img {
         width: calc(30% - 2%); 
     }

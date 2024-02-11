@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/ico" href="Imagenes/favicon.ico">
     <title>DATEC</title>
     <link rel="stylesheet" href="Style.css">
     <link rel="stylesheet" href="header.css">
@@ -19,6 +20,7 @@
     <link rel="stylesheet" href="marcas.css">
     <link rel="stylesheet" href="contacto.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -33,36 +35,26 @@
 </header>
 
 
-<section class="header">
+<section class="barra-nav">
+    <div class="logo">
+        <img src="Imagenes/Logo-datec-fire-blanco.png" alt="Logo">
+    </div>
     <nav>
-        <a href="LandingPage.html"><img src="Imagenes/Logo-datec-fire-blanco.png"></a>
-        <div class="nav-aspectos">
-            <ul>
-                <li><a href="LandingPage.html">Inicio</a></li>
-                <li><a href="Acerca.html">Acerca De</a></li>
-                <li><a href="servicios.html">Servicios</a></li>
-                <li><a href="datos.html">Datos</a></li>
-                <li><a href="#">Contactanos</a></li>
-            </ul>
-        </div>
+        <ul class="nav-links">
+            <li><a href="LandingPage.html">Inicio</a></li>
+            <li><a href="Acerca.html">Acerca de</a></li>
+            <li><a href="servicios.html">Servicios</a></li>
+        </ul>
     </nav>
-
-    <div class="text-box">
-        <h1>PORTAFOLIO<br>DE SERVICIOS</h1>
-        <p>DATEC I.P.M</p>
-    </div>
-
-    <div class="contacto">
-        <p>301-376-9750<br><br>pjimenez@datecsolutions.com.co<br>jquintero@datecsolutions.com.co</p>
-
-    </div>
+    <a href="contacto.html" class="button"><button>Contactanos</button></a>
 </section>
 
-            
-    <div class="iconos">
-        <div class="fas fa-bars" id="menu-btn"></div>
-    </div>
+
+<section class="header">
+        <a href="LandingPage.html"><img src="Imagenes/Logo-datec-fire-blanco.png"></a>
 </section>
+
+
 
     <!--Mantenimiento RCI-->
     <header>
@@ -74,25 +66,25 @@
 
     <section>
         <div class="mantenimiento-content">
-            <div class="mantenimiento">
-                <h1> MANTENIMIENTO RCI </h1>
-                <h3> (RED CONTRA INCENDICOS)</h3>
                 <div class="mantenimiento-img">
                     <img src="Imagenes/image (12).png" alt="mantenimiento">
                 </div>
-                <p>Nos enorgullece ofrecer soluciones de vanguardia en el mercado para proteger sus instalaciones. 
-                    Nuestro equipo de expertos altamente capacitados está comprometido en proporcionar 
-                    inspecciones detalladas, pruebas precisas y un mantenimiento de calidad. Por lo tanto 
-                    basándonos en la normativa actualizada de la NFPA 25, ofrecemos servicio de mantenimientos 
-                    a la red RCI, correspondientes a: <br>
+
+                <div class="mantenimiento">
+                    <h1> MANTENIMIENTO RCI </h1>
+                    <h3> (RED CONTRA INCENDICOS)</h3>
+                    <p>Nos enorgullece ofrecer soluciones de vanguardia en el mercado para proteger sus instalaciones.
+                        Nuestro equipo de expertos altamente capacitados está comprometido en proporcionar
+                        inspecciones detalladas, pruebas precisas y un mantenimiento de calidad. Por lo tanto
+                        basándonos en la normativa actualizada de la NFPA 25, ofrecemos servicio de mantenimientos
+                        a la red RCI, correspondientes a: <br>
                     -Cambios de rociadores <br>
-                    -Instalaciones a tuberías adicionales si aplica para sus casos específicos <br>
+                    -Instalaciones de tuberías adicionales si aplica para sus casos específicos <br>
                     -Cierre o apertura de puntos de rociador según se requiera <br>
-                    -Suministro e instalación de rociadores (upright-pendent) según sea la aplicabilidad y <br> operatividad en el espacio que se requiera <br>
+                    -Suministro e instalación de rociadores (uprigth-pendent) según sea la aplicabilidad y
+                    operatividad en el espacio que se requiera
                     -Corrección de fugas <br>
-                    -IPM a bomba principal y bombas jockey
-            </p>
-            </div>
+                    -IPM a bomba principal y bombas jockey</p>
         </div>
     </section>
 
@@ -134,62 +126,64 @@
         </div>
     </header>
 
-    <section class="lineaTiempo">
-    <div class="timeline">
-        <div class="event">
-            <div class="event-icon-1">
-                <img src="Imagenes/tel.png" alt="Icono 1">
-            </div>
-            <div class="event-details-1">
-                <h4>PRUEBAS <br>PITOMÉTRICAS <br> A BOMBAS RCI</h4>
-                <div class="event-description-1">
+    <section class="pruebas">
+        <div class="pruebas-title">
+            <h1>PRUEBAS ESPECIALIZADAS</h1>
+        </div>
+
+        <div class="pruebas-box">
+            <div class="pruebas-card">
+                <h5>PRUEBAS PITOMÉTRICAS A BOMBAS RCI</h5>
+                <div class="pruebas-texto">
                     <p>BUSCAMOS EVALUAR QUE LA BOMBA,
                         IMPULSOR, SUCCIÓN Y SUMINISTRO
                         DE POTENCIA FUNCIONEN
                         APROPIADAMENTE POR MEDIO DE
-                        UNA MEDICIÓN DE PRESIÓN Y
-                        CAUDAL.</p>
+                        UNA MEDICIÓN DE PRESIÓN Y CAUDAL</p>
+                </div>
+                <div class="pruebas-img">
+                    <img src="Imagenes/pruebas.png" alt="">
                 </div>
             </div>
+
+            <div class="pruebas-box">
+                <div class="pruebas-card">
+                    <h5>PRUEBAS DE CAUDAL Y PRESIÓN A GABINETES CONTRA INCENDIO</h5>
+                    <div class="pruebas-texto">
+                        <p>LAS PRUEBAS DE CAUDAL Y PRESIÓN
+                            TIENEN COMO OBJETIVO VERIFICAR
+                            UN GRADO RAZONABLE DE
+                            FUNCIONALIDAD Y EFECTIVIDAD DE
+                            LA RED CONTRA INCENDIOS COMO
+                            PARTE DE LA PROTECCIÓN DE LA VIDA
+                            Y DE LA PROPIEDAD
+                            </p>
+                    </div>
+                    <div class="pruebas-img">
+                        <img src="Imagenes/pruebas (2).png" alt="">
+                    </div>
+                </div>
+
+                <div class="pruebas-box">
+                    <div class="pruebas-card">
+                        <h5>PRUEBAS DE FUNCIONAMIENTO DE ELEMENTOS DE RDI</h5>
+                        <div class="pruebas-texto">
+                            <p>A TRAVÉS DE UN SMOKE
+                                DETECTOR TESTER SIMULAMOS
+                                UNA PEQUEÑA CANTIDAD DE
+                                HUMO QUE NOS PERMITE
+                                RECONOCER E IDENTIFICAR LA
+                                FUNCIONALIDAD DEL SISTEMA
+                            </p>
+                        </div>
+                        <div class="pruebas-img">
+                            <img src="Imagenes/pruebas (3).png" alt="">
+                        </div>
+                    </div>  
         </div>
 
-        <div class="event">
-            <div class="event-description-2">
-                <p>LAS PRUEBAS DE CAUDAL Y PRESIÓN
-                    TIENEN COMO OBJETIVO VERIFICAR
-                    UN GRADO RAZONABLE DE
-                    FUNCIONALIDAD Y EFECTIVIDAD DE
-                    LA RED CONTRA INCENDIOS COMO
-                    PARTE DE LA PROTECCIÓN DE LA VIDA
-                    Y DE LA PROPIEDAD
-                </p>
-                <div class="event-details-2">
-                    <h4>PRUEBAS DE CAUDAL Y <br>PRESIÓN A GABINETES CONTRA <br> INCENDIO</h4>
-                </div>
-            </div>
-            <div class="event-icon-2">
-                <img src="Imagenes/tel.png" alt="Icono 2">
-            </div>
-        </div>
-
-        <div class="event">
-            <div class="event-icon-3">
-                <img src="Imagenes/tel.png" alt="Icono 3">
-            </div>
-            <div class="event-details-3">
-                <h4>PRUEBAS DE <br> FUNCIONAMIENTO DE <br> ELEMENTOS DE RDI</h4>
-                <div class="event-description-3">
-                    <p>A TRAVÉS DE UN SMOKE
-                        DETECTOR TESTER SIMULAMOS
-                        UNA PEQUEÑA CANTIDAD DE
-                        HUMO QUE NOS PERMITE
-                        RECONOCER E IDENTIFICAR LA
-                        FUNCIONALIDAD DEL SISTEMA</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+        
+    </section>
 
     <!--Instalación RCI y RDI-->
     <header>
@@ -200,25 +194,26 @@
     </header>
 
     <section>
-        <div class="mantenimineto-content">
-            <div class="mantenimiento">
-                <h1> INSTALACIÓN RCI Y RDI </h1>
-                <h3> (RED CONTRA INCENDIOS Y RED DE DETECCIÓN DE INCENDICOS)</h3>
-                <p>Para la implementación de los sistemas RCI y RDI nos basamos 100% en el diseño previo de la
-                    red a instalar en el inmueble, el tipo de actividades que se realizan y las características a nivel
-                    arquitectónico. Para nuestro equipo es fundamental aplicar los principios generales del fuego,
-                    dado que los sistemas contra incendios se implementa específicamente para interferir con uno o
-                    varios de estos elementos, rompiendo así el tetraedro del fuego y evitando que el incendio se
-                    propague. Al implementar un sistema de detección y supresión en los inmuebles se garantiza la
-                    notificación y acción frente a un posible riesgo de incendio. <br><br>
-                    Contamos con diferentes marcas lideres en el mercado que cumplen con los requerimientos
-                    necesarios según la normativa NFPA para la correcta comunicación, alerta y acción frente a un
-                    riesgo.
-            </p>
-            </div>
-            <div class="mantenimiento-img">
-                <img src="Imagenes/image (1).png" alt="mantenimiento">
-            </div>
+        <div class="mantenimiento-content">
+                <div class="mantenimiento-img">
+                    <img src="Imagenes/image (1).png" alt="mantenimiento">
+                </div>
+
+                <div class="mantenimiento">
+                    <h1> MANTENIMIENTO RCI </h1>
+                    <h3> (RED CONTRA INCENDICOS)</h3>
+                    <p>Nos enorgullece ofrecer soluciones de vanguardia en el mercado para proteger sus instalaciones.
+                        Nuestro equipo de expertos altamente capacitados está comprometido en proporcionar
+                        inspecciones detalladas, pruebas precisas y un mantenimiento de calidad. Por lo tanto
+                        basándonos en la normativa actualizada de la NFPA 25, ofrecemos servicio de mantenimientos
+                        a la red RCI, correspondientes a: <br>
+                    -Cambios de rociadores <br>
+                    -Instalaciones de tuberías adicionales si aplica para sus casos específicos <br>
+                    -Cierre o apertura de puntos de rociador según se requiera <br>
+                    -Suministro e instalación de rociadores (uprigth-pendent) según sea la aplicabilidad y
+                    operatividad en el espacio que se requiera
+                    -Corrección de fugas <br>
+                    -IPM a bomba principal y bombas jockey</p>
         </div>
     </section>
 
@@ -264,5 +259,51 @@
         </div>
     </section>
 
+
+    <!--Contacto-->
+    <section class="contact">
+        <div class="content">
+            <h2>Contactanos</h2>
+            <p>Nos complace saber que diseñaremos el mejor Plan de Inspección. Prueba y <br>
+                Mantenimiento que cubra todo lo que requiere su sistema</p>
+        </div>
+        <div class="container">
+            <div class="contacto-info">
+                <div class="box">
+                        <div class="text">
+                            <h3>Correo</h3>
+                            <p>pjimenez@datecsolutions.com <br>
+                            jquintero@datecsolutions.com</p>
+                        </div>
+                </div>
+                <div class="box">
+                    <div class="text">
+                        <h3>Teléfono</h3>
+                        <p>301-376-9750</p>
+                    </div>
+            </div>
+            </div>
+            <div class="contacto_form">
+                <form>
+                    <h2>Enviar Mensaje</h2>
+                    <div class="input">
+                        <input type="text" name="" required="required">
+                        <span>Nombre Completo</span>
+                    </div>
+                    <div class="input">
+                        <input type="text" name="" required="required">
+                        <span>Email</span>
+                    </div>
+                    <div class="input">
+                        <textarea id="" cols="30" rows="10"></textarea>
+                        <span>Escriba su Mensaje</span>
+                    </div>
+                    <div class="input">
+                        <input type="submit" name="" value="Enviar">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
 </body>
 </html>
