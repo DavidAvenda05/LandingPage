@@ -61,11 +61,22 @@
 }
 
 
+#menu-icon{
+    color: #fff;
+    font-size: 42px;
+    z-index: 10001;
+    cursor: pointer;
+    display: none;
+}
+
+
+
 .barra-nav .button{
     order:2;
 }
 
 .barra-nav .button button{
+    margin-bottom: 10 px;
     margin-left: 20px;
     font-weight: 700;
     color: #000000;
@@ -198,7 +209,7 @@
     font-size: 45px;
     line-height: 1.7;
     font-family: 'Safira March Personal Use', sans-serif;
-    font-weight: 300;
+    font-weight: 700;
 }
 
 .box{
@@ -208,11 +219,15 @@
     min-height: 400px;
 }
 
+.box .card{
+    background: #FEA41A;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
 .card{
     height: 220px;
     width: 210px;
     padding: 20px 35px;
-    background: #FEA41A;
     border-radius: 20px;
     margin: 15px;
     position: relative;
@@ -250,4 +265,26 @@ h5{
     cursor: pointer;
 }
 
+@media (max-widht:1600px){
+    barra-nav{
+        padding: 14px 4%;
+    }
+    section{
+        padding: 100px 5% 80px;
+    }
+}
 
+@media (max-widht:1200px){
+    .como-trabajamos{
+        min-height: 90vh;
+    }
+    .nav-links a{
+        margin: 0 20px;
+    }
+    :root h1{
+        font: 5rem;
+    }
+    :root p{
+        size: 1rem;
+    }
+}
