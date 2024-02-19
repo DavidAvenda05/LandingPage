@@ -1,3 +1,12 @@
+*{
+    margin:0; padding:0;
+    box-sizing: border-box;
+    outline: none; border:none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+}
+
 .servicios{
     background: #fff;
     width: 100%;
@@ -56,4 +65,91 @@
 .pruebas-img img{
     width: 150px;
     align-items: center;
+}
+
+@media only screen and (max-width: 768px) {
+  /* Estilos para móviles */
+    .servicios {
+    padding: 50px 0;
+}
+    .title h1 {
+    margin-left: 20px;
+    font-size: 30px;
+}
+    .pruebas-card {
+    height: 250px;
+    width: 250px;
+    margin: 10px;
+}
+    .pruebas-title h1 {
+    margin-left: 30px;
+    font-size: 20px;
+}
+    .pruebas-texto h5 {
+    font-size: 18px;
+}
+    .pruebas-texto p {
+    font-size: 13px;
+}
+    .pruebas-img img {
+    width: 100px;
+}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  /* Estilos para tablets */
+    .servicios {
+    padding: 75px 0;
+}
+    .title h1 {
+    margin-left: 50px;
+    font-size: 35px;
+}
+    .pruebas-card {
+    height: 300px;
+    width: 300px;
+    margin: 15px;
+}
+    .pruebas-title h1 {
+    margin-left: 40px;
+    font-size: 22px;
+}
+    .pruebas-texto h5 {
+    font-size: 20px;
+}
+    .pruebas-texto p {
+    font-size: 14px;
+}
+    .pruebas-img img {
+    width: 120px;
+}
+}
+
+@media only screen and (min-width: 1024px) {
+  /* Estilos para escritorios */
+    .servicios {
+    padding: 100px 0;
+}
+    .title h1 {
+    margin-left: 100px;
+    font-size: 45px;
+}
+    .pruebas-card {
+    height: 350px;
+    width: 350px;
+    margin: 15px;
+}
+    .pruebas-title h1 {
+    margin-left: 50px;
+    font-size: 25px;
+}
+    .pruebas-texto h5 {
+    font-size: 23px;
+}
+    .pruebas-texto p {
+    font-size: 15px;
+}
+    .pruebas-img img {
+    width: 150px;
+}
 }

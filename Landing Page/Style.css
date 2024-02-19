@@ -4,95 +4,13 @@
     padding: 0;   
 }
 
-.barra-nav{
-    background-color: #000000;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    height: 85px;
-    padding: 5px 10%;
-}
-
-.barra-nav .logo{
-    cursor: pointer;
-    order: 3;
-    margin-left: auto;
-}
-
-.logo img{
-    width: auto;
-    height: 70px;
-    transition: all 0.3s;
-}
-
-.barra-nav .logo img:hover{
-    transform: scale(1.2);
-}
-
-.barra-nav nav{
-    order: 1;
-}
-
-.barra-nav .nav-links{
-    list-style: none;
-}
-
-.barra-nav .nav-links li{
-    display: inline-block;
-    padding: 0 20px;
-}
-
-.barra-nav .nav-links li:nth-child(1){
-    padding: 0 20px 0 0;
-}
-
-.barra-nav .nav-links li:hover{
-    transform: scale(1.1);
-}
-
-.barra-nav .nav-links a{
-    font-size: 700;
-    color: #fff;
-    text-decoration: none;
-}
-
-.barra-nav .nav-links li a:hover{
-    color: #FEA41A;
+body{
+    min-height: 100vh;
+    width: 100%;
 }
 
 
-#menu-icon{
-    color: #fff;
-    font-size: 42px;
-    z-index: 10001;
-    cursor: pointer;
-    display: none;
-}
-
-
-
-.barra-nav .button{
-    order:2;
-}
-
-.barra-nav .button button{
-    margin-bottom: 10 px;
-    margin-left: 20px;
-    font-weight: 700;
-    color: #000000;
-    padding: 9px 25px;
-    background: #FEA41A;
-    border: none;
-    border-radius: 50px;
-    cursor: pointer;
-    transform: all 0.3s ease 0s;
-}
-
-.barra-nav .button button:hover{
-    background-color: #fff;
-    color: #FEA41A;
-    scale: scale(1,1);
-}
+/**Home**/
 
 .header{
     height: 60vh;
@@ -112,32 +30,6 @@
     left: 2%;
 }
 
-.nav-aspectos ul li{
-    list-style: none;
-    display: inline-block;
-    padding: 8px 12px;
-    position: relative;   
-}
-
-.nav-aspectos ul li a{
-    color: #fff;
-    text-decoration: none;
-    font-size: 15px;
-
-}
-
-.nav-aspectos ul li::after{
-    content: '';
-    width: 0%;
-    height: 2px;
-    background: #000000;
-    display: block;
-    margin: auto;
-}
-
-.nav-aspectos ul li:hover::after{
-    width: 100%;
-}
 
 .text-box{
     width: 90%;
@@ -265,26 +157,4 @@ h5{
     cursor: pointer;
 }
 
-@media (max-widht:1600px){
-    barra-nav{
-        padding: 14px 4%;
-    }
-    section{
-        padding: 100px 5% 80px;
-    }
-}
 
-@media (max-widht:1200px){
-    .como-trabajamos{
-        min-height: 90vh;
-    }
-    .nav-links a{
-        margin: 0 20px;
-    }
-    :root h1{
-        font: 5rem;
-    }
-    :root p{
-        size: 1rem;
-    }
-}

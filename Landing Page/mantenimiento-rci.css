@@ -1,4 +1,3 @@
-
 .mantenimiento-content{
     background-color: #fff;
     padding: 40px;
@@ -6,13 +5,29 @@
     align-items: center;
     grid-template-columns: repeat(auto-fit, minmax(200px, auto));
     gap: 4rem;
+    margin: 0 auto;
+    padding: 10px 20px;
+}
+
+.mantenimiento-img{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .mantenimiento-img img{
-    width: 100%;
+    flex: 1;
+    max-width: 100%;
     height: auto;
+    overflow: hidden;
+    display: block;
+    transition: 0.5s ease;
 }
 
+.mantenimiento-img:hover img{
+    transform: scale(1.2);
+}
 .mantenimiento h1{
     margin-right: 70px;
     font-size: 25px;
@@ -21,11 +36,21 @@
     font-weight: 200;
 }
 
+.mantenimiento h1::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    display: block;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
 .mantenimiento h3{
     text-align: left;
     font-size: 18px;
     line-height: 1.0;
-    margin-top: 0.5%;
+    margin-top: 2%;
     margin-right: 50px;
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 600;
@@ -40,4 +65,58 @@
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 600;
     margin-top: 3%;
+}
+
+@media screen and (max-width: 1180px) {
+    .mantenimiento{
+        padding: 0px 20px;
+    }
+    .mantenimiento h1{
+        font-size: 35px;
+    }
+
+    .mantenimiento h3{
+        font-size: 20px;
+    }
+    .mantenimiento p{
+        font-size: 15px;
+        margin-bottom: 0px;
+        font-weight: 300;
+    }
+    .mantenimiento-content{
+        padding: 0px;
+        padding: 20px;
+        flex-direction: column
+    }
+    .mantenimiento-img{
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and  (max-width: 768px) {
+    .mantenimiento{
+        padding: 0px 20px;
+    }
+    .mantenimiento h1{
+        font-size: 30px;
+    }
+
+    .mantenimiento h3{
+        font-size: 15px;
+    }
+    .mantenimiento p{
+        font-size: 15px;
+        margin-bottom: 0px;
+        font-weight: 300;
+    }
+    .mantenimiento-content{
+        padding: 0px;
+        padding: 20px;
+        flex-direction: column
+    }
+    .mantenimiento-img{
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
 }

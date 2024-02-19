@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/ico" href="Imagenes/favicon.ico">
     <title>DATEC</title>
+    <link rel="stylesheet" href="nav.css">
     <link rel="stylesheet" href="Style.css">
     <link rel="stylesheet" href="header.css">
     <link rel="stylesheet" href="comotrabajamos.css">
@@ -27,7 +28,6 @@
     <section class="barra-nav">
         <div class="logo">
             <img src="Imagenes/Logo-datec-fire-blanco.png" alt="Logo">
-            <div class="bx bx-menu" id="menu-icon"></div>
         </div>
         <nav>
             <ul class="nav-links">
@@ -180,57 +180,79 @@
 
     <!--Contacto-->
 
-    <header>
-        <div class="header-top">
-            <span class="left">CONTACTO</span>
-            <span class="right">ED. 2024</span>
-        </div>
-    </header>
-
     <section class="contact">
-        <div class="content">
-            <h2>Contactanos</h2>
-            <p>Nos complace saber que diseñaremos el mejor Plan de Inspección. Prueba y <br>
-                Mantenimiento que cubra todo lo que requiere su sistema</p>
+        <div class="section-header">
+            <div class="container">
+                <h2>Contactanos</h2>
+                <p>Nos complace saber que diseñaremos el mejor Plan de Inspección. Prueba y <br>
+                    Mantenimiento que cubra todo lo que requiere su sistema</p>
+            </div>
         </div>
+    
         <div class="container">
-            <div class="contacto-info">
-                <div class="box">
-                        <div class="text">
-                            <h3>Correo</h3>
-                            <p>pjimenez@datecsolutions.com <br>
-                            jquintero@datecsolutions.com</p>
+            <div class="row">
+                <div class="contact-info-item">
+                        <div class="contact-info-icon">
+                            <i class="bx bx-envelope" id="menu-icon"></i>
                         </div>
+    
+                        <div class="contact-info-content">
+                            <h4>Email</h4>
+                            <p>jquintero@datecsolutions.com</p>
+                        </div>
+                    </div>
+    
+                    <div class="contact-info-item">
+                        <div class="contact-info-icon">
+                            <i class="bx bx-envelope" id="menu-icon"></i>
+                        </div>
+    
+                        <div class="contact-info-content">
+                            <h4>Email</h4>
+                            <p>jquintero@datecsolutions.com</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="box">
-                    <div class="text">
-                        <h3>Teléfono</h3>
+    
+                <div class="contact-info-item">
+                    <div class="contact-info-icon">
+                        <i class="bx bx-phone" id="menu-icon"></i>
+                    </div>
+                    
+                    <div class="contact-info-content">
+                        <h4>Télefono</h4>
                         <p>301-376-9750</p>
                     </div>
+                </div>
             </div>
-            </div>
-            <div class="contacto_form">
-                <form>
-                    <h2>Enviar Mensaje</h2>
-                    <div class="input">
-                        <input type="text" name="" required="required">
+    
+            <div class="contact-form">
+                <form id="contact-form">
+                    <h2>Envíar Mensaje</h2>
+                    <div class="input-box">
+                        <input type="text" required="true">
                         <span>Nombre Completo</span>
                     </div>
-                    <div class="input">
-                        <input type="text" name="" required="required">
+    
+                    <div class="input-box">
+                        <input type="email" required="true">
                         <span>Email</span>
                     </div>
-                    <div class="input">
-                        <textarea id="" cols="30" rows="10"></textarea>
+    
+                    <div class="input-box">
+                        <textarea required="true"></textarea>
                         <span>Escriba su Mensaje</span>
                     </div>
-                    <div class="input">
-                        <input type="submit" name="" value="Enviar">
+    
+                    <div class="input-box">
+                        <input type="submit" value="Send">
                     </div>
                 </form>
             </div>
+            
         </div>
     </section>
+    
 
     
     

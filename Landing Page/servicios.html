@@ -6,6 +6,7 @@
     <link rel="icon" type="image/ico" href="Imagenes/favicon.ico">
     <title>DATEC</title>
     <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="nav.css">
     <link rel="stylesheet" href="header.css">
     <link rel="stylesheet" href="acercade.css">
     <link rel="stylesheet" href="comotrabajamos.css">
@@ -20,6 +21,7 @@
     <link rel="stylesheet" href="marcas.css">
     <link rel="stylesheet" href="contacto.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
@@ -66,26 +68,28 @@
 
     <section>
         <div class="mantenimiento-content">
-                <div class="mantenimiento-img">
-                    <img src="Imagenes/image (12).png" alt="mantenimiento">
-                </div>
+            <div class="mantenimiento-img">
+                <img src="Imagenes/image (12).png" alt="mantenimiento">
+            </div>
 
-                <div class="mantenimiento">
-                    <h1> MANTENIMIENTO RCI </h1>
-                    <h3> (RED CONTRA INCENDICOS)</h3>
-                    <p>Nos enorgullece ofrecer soluciones de vanguardia en el mercado para proteger sus instalaciones.
-                        Nuestro equipo de expertos altamente capacitados está comprometido en proporcionar
-                        inspecciones detalladas, pruebas precisas y un mantenimiento de calidad. Por lo tanto
-                        basándonos en la normativa actualizada de la NFPA 25, ofrecemos servicio de mantenimientos
-                        a la red RCI, correspondientes a: <br>
-                    -Cambios de rociadores <br>
-                    -Instalaciones de tuberías adicionales si aplica para sus casos específicos <br>
-                    -Cierre o apertura de puntos de rociador según se requiera <br>
-                    -Suministro e instalación de rociadores (uprigth-pendent) según sea la aplicabilidad y
-                    operatividad en el espacio que se requiera
-                    -Corrección de fugas <br>
-                    -IPM a bomba principal y bombas jockey</p>
-        </div>
+            <div class="mantenimiento">
+                <h1> MANTENIMIENTO RCI </h1>
+                <h3> (RED CONTRA INCENDICOS)</h3>
+                <p>Nos enorgullece ofrecer soluciones de vanguardia en el mercado para proteger sus instalaciones.
+                    Nuestro equipo de expertos altamente capacitados está comprometido en proporcionar
+                    inspecciones detalladas, pruebas precisas y un mantenimiento de calidad. Por lo tanto
+                    basándonos en la normativa actualizada de la NFPA 25, ofrecemos servicio de mantenimientos
+                    a la red RCI, correspondientes a: <br>
+                -Cambios de rociadores <br>
+                -Instalaciones de tuberías adicionales si aplica para sus casos específicos <br>
+                -Cierre o apertura de puntos de rociador según se requiera <br>
+                -Suministro e instalación de rociadores (uprigth-pendent) según sea la aplicabilidad y
+                operatividad en el espacio que se requiera
+                -Corrección de fugas <br>
+                -IPM a bomba principal y bombas jockey</p>
+    </div>
+
+
     </section>
 
     <!--Mantenimiento RDI-->
@@ -125,7 +129,7 @@
             <span class="right">ED. 2024</span>
         </div>
     </header>
-
+        
     <section class="pruebas">
         <div class="pruebas-title">
             <h1>PRUEBAS ESPECIALIZADAS</h1>
@@ -184,7 +188,6 @@
 
         
     </section>
-
     <!--Instalación RCI y RDI-->
     <header>
         <div class="header-top">
@@ -262,48 +265,77 @@
 
     <!--Contacto-->
     <section class="contact">
-        <div class="content">
-            <h2>Contactanos</h2>
-            <p>Nos complace saber que diseñaremos el mejor Plan de Inspección. Prueba y <br>
-                Mantenimiento que cubra todo lo que requiere su sistema</p>
+        <div class="section-header">
+            <div class="container">
+                <h2>Contactanos</h2>
+                <p>Nos complace saber que diseñaremos el mejor Plan de Inspección. Prueba y <br>
+                    Mantenimiento que cubra todo lo que requiere su sistema</p>
+            </div>
         </div>
+    
         <div class="container">
-            <div class="contacto-info">
-                <div class="box">
-                        <div class="text">
-                            <h3>Correo</h3>
-                            <p>pjimenez@datecsolutions.com <br>
-                            jquintero@datecsolutions.com</p>
+            <div class="row">
+                <div class="contact-info-item">
+                        <div class="contact-info-icon">
+                            <i class="bx bx-envelope" id="menu-icon"></i>
                         </div>
+    
+                        <div class="contact-info-content">
+                            <h4>Email</h4>
+                            <p>pjimenez@datecsolutions.com</p>
+                        </div>
+                    </div>
+    
+                    <div class="contact-info-item">
+                        <div class="contact-info-icon">
+                            <i class="bx bx-envelope" id="menu-icon"></i>
+                        </div>
+    
+                        <div class="contact-info-content">
+                            <h4>Email</h4>
+                            <p>jquintero@datecsolutions.com</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="box">
-                    <div class="text">
-                        <h3>Teléfono</h3>
+    
+                <div class="contact-info-item">
+                    <div class="contact-info-icon">
+                        <i class="bx bx-phone" id="menu-icon"></i>
+                    </div>
+                    
+                    <div class="contact-info-content">
+                        <h4>Télefono</h4>
                         <p>301-376-9750</p>
                     </div>
+                </div>
             </div>
-            </div>
-            <div class="contacto_form">
-                <form>
-                    <h2>Enviar Mensaje</h2>
-                    <div class="input">
-                        <input type="text" name="" required="required">
+    
+            <div class="contact-form">
+                <form id="contact-form">
+                    <h2>Envíar Mensaje</h2>
+                    <div class="input-box">
+                        <input type="text" required="true">
                         <span>Nombre Completo</span>
                     </div>
-                    <div class="input">
-                        <input type="text" name="" required="required">
+    
+                    <div class="input-box">
+                        <input type="email" required="true">
                         <span>Email</span>
                     </div>
-                    <div class="input">
-                        <textarea id="" cols="30" rows="10"></textarea>
+    
+                    <div class="input-box">
+                        <textarea required="true"></textarea>
                         <span>Escriba su Mensaje</span>
                     </div>
-                    <div class="input">
-                        <input type="submit" name="" value="Enviar">
+    
+                    <div class="input-box">
+                        <input type="submit" value="Send">
                     </div>
                 </form>
             </div>
+            
         </div>
     </section>
+    
 </body>
 </html>

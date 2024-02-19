@@ -6,20 +6,10 @@
     <link rel="icon" type="image/ico" href="Imagenes/favicon.ico">
     <title>DATEC</title>
     <link rel="stylesheet" href="Style.css">
-    <link rel="stylesheet" href="header.css">
-    <link rel="stylesheet" href="acercade.css">
-    <link rel="stylesheet" href="comotrabajamos.css">
-    <link rel="stylesheet" href="datec.css">
-    <link rel="stylesheet" href="servicios.css">
-    <link rel="stylesheet" href="mantenimiento-rci.css">
-    <link rel="stylesheet" href="mantenimiento-rdi.css">
-    <link rel="stylesheet" href="pruebas.css">
-    <link rel="stylesheet" href="instalacion.css">
-    <link rel="stylesheet" href="planes.css">
-    <link rel="stylesheet" href="datos.css">
-    <link rel="stylesheet" href="marcas.css">
+    <link rel="stylesheet" href="nav.css">
     <link rel="stylesheet" href="contacto.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -43,50 +33,80 @@
         <a href="contacto.html" class="button"><button>Contactanos</button></a>
     </section>
     
-   <!--Contacto-->
-   <section class="contact">
-    <div class="content">
-        <h2>Contactanos</h2>
-        <p>Nos complace saber que diseñaremos el mejor Plan de Inspección. Prueba y <br>
-            Mantenimiento que cubra todo lo que requiere su sistema</p>
+<!--Contacto-->
+<section class="contact">
+    <div class="section-header">
+        <div class="container">
+            <h2>Contactanos</h2>
+            <p>Nos complace saber que diseñaremos el mejor Plan de Inspección. Prueba y <br>
+                Mantenimiento que cubra todo lo que requiere su sistema</p>
+        </div>
     </div>
+
     <div class="container">
-        <div class="contacto-info">
-            <div class="box">
-                    <div class="text">
-                        <h3>Correo</h3>
-                        <p>pjimenez@datecsolutions.com <br>
-                        jquintero@datecsolutions.com</p>
+        <div class="row">
+            <div class="contact-info-item">
+                    <div class="contact-info-icon">
+                        <i class="bx bx-envelope" id="menu-icon"></i>
                     </div>
+
+                    <div class="contact-info-content">
+                        <h4>Email</h4>
+                        <p>jquintero@datecsolutions.com</p>
+                    </div>
+                </div>
+
+                <div class="contact-info-item">
+                    <div class="contact-info-icon">
+                        <i class="bx bx-envelope" id="menu-icon"></i>
+                    </div>
+
+                    <div class="contact-info-content">
+                        <h4>Email</h4>
+                        <p>jquintero@datecsolutions.com</p>
+                    </div>
+                </div>
             </div>
-            <div class="box">
-                <div class="text">
-                    <h3>Teléfono</h3>
+
+            <div class="contact-info-item">
+                <div class="contact-info-icon">
+                    <i class="bx bx-phone" id="menu-icon"></i>
+                </div>
+                
+                <div class="contact-info-content">
+                    <h4>Télefono</h4>
                     <p>301-376-9750</p>
                 </div>
+            </div>
         </div>
-        </div>
-        <div class="contacto_form">
-            <form>
-                <h2>Enviar Mensaje</h2>
-                <div class="input">
-                    <input type="text" name="" required="required">
+
+        <div class="contact-form">
+            <form id="contact-form">
+                <h2>Envíar Mensaje</h2>
+                <div class="input-box">
+                    <input type="text" required="true">
                     <span>Nombre Completo</span>
                 </div>
-                <div class="input">
-                    <input type="text" name="" required="required">
+
+                <div class="input-box">
+                    <input type="email" required="true">
                     <span>Email</span>
                 </div>
-                <div class="input">
-                    <textarea id="" cols="30" rows="10"></textarea>
+
+                <div class="input-box">
+                    <textarea required="true"></textarea>
                     <span>Escriba su Mensaje</span>
                 </div>
-                <div class="input">
-                    <input type="submit" name="" value="Enviar">
+
+                <div class="input-box">
+                    <input type="submit" value="Send">
                 </div>
             </form>
         </div>
+        
     </div>
 </section>
+
+
 </body>
 </html>

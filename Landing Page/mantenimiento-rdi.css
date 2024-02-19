@@ -51,3 +51,30 @@
     width: 160%;
     max-width: auto;
 }
+
+@media screen and  (max-width: 768px) {
+    .mantenimiento-RDI{
+        padding: 0px 20px;
+    }
+    .mantenimiento-RDI-text h1{
+        font-size: 30px;
+    }
+
+    .mantenimiento-RDI-text h3{
+        font-size: 15px;
+    }
+    .mantenimiento-RDI-text p{
+        font-size: 15px;
+        margin-bottom: 0px;
+        font-weight: 300;
+    }
+    .mantenimiento-RDI-img{
+        padding: 0px;
+        padding: 20px;
+        flex-direction: column
+    }
+    .mantenimiento-RDI-img img{
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
+}
